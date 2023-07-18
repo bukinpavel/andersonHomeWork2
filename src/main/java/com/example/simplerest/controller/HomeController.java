@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("home")
     public ResponseEntity<String> homePage() {
-        return ResponseEntity.ok("Just trying GithubHook for Jenkins");
+        return ResponseEntity.ok("Just trying GithubHook for Jenkins #3");
     }
 }
