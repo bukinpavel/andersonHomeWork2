@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("home")
     public ResponseEntity<String> homePage() {
-        return ResponseEntity.ok("Deployed on Tomcat #5");
+        return ResponseEntity.ok("Deployed on Tomcat #6");
     }
 }
